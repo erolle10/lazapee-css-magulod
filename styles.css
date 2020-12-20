@@ -1,0 +1,837 @@
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0; 
+
+
+}
+    li ,a {
+            font-family: Helvetica,Tahoma,Arial,Sans-serif;
+            font-size: 20px;
+        text-decoration: none;
+        color: #252f7b;
+
+}
+
+li,a:hover{
+    color: #f95031 ;
+}
+
+.container{ 
+        margin: auto;
+        height: auto;
+        border: solid 1px #cacaca;
+        background-color: #fff;
+        
+
+}
+
+.logo{
+  margin-left: 3%;
+}
+.nav{
+            vertical-align: 1275px;
+            padding: 20px;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+           
+
+            
+}
+.navbar{ 
+    
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto  ;
+    width: 100%;
+}
+.navbar,li{
+    display: inline-block;
+    padding: 5px;
+}
+.midbar{
+    display: inline-block;
+    width:80%;
+    margin-left:2%; 
+  
+}
+
+.rnav{
+    
+    
+    
+    display: inline-block;
+    width:13% ;
+    float: right;
+    margin: auto;
+    
+   
+      
+}
+
+/* main content */
+
+
+body{
+        background-color: #eff0f5;
+        
+    
+}
+
+/*flash sale*/
+
+
+
+.flashsale{
+        padding-top: 60px;
+       padding-bottom: 20px;
+        text-align: center;
+}
+
+.content{
+    background-color: #fff;
+    width: 90%;
+    height: auto;
+    border: none;
+    margin: auto;
+   
+    
+}
+.images{
+   
+   text-align: center  ;
+   padding: 30px    ;
+   
+  
+   
+
+}
+
+.imgf{
+    width: 250px ;
+    height: 250px;
+    object-fit: cover;
+}
+.img2{
+    width: 250px ;
+    height: 250px;
+    object-fit: cover;
+}
+.img3{
+    width: 250px ;
+    height: 250px;
+    object-fit: cover;
+}
+.img4{
+    width: 250px ;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/*cart*/
+
+.cartt{
+    text-align: center;
+    padding-top: 70px;
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+    font-weight: bold;
+}
+
+.cart{
+    background-color: #fff;
+    border: #fff;
+    width: 94%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+   
+    
+}
+table{
+    border-style: none;
+    width: 93%;
+    margin: auto; 
+   
+    
+}
+td{
+   border-style: none;
+   border-bottom:solid 2px #eff0f5;
+   padding: 10px;
+    
+}
+th{
+    border-style: none;
+    border-bottom:solid 3px #eff0f5;
+}
+
+tr:hover{
+        background-color: #ececec ;
+}
+
+/* account */
+.acccontainer{
+    border: none;
+}
+.manage{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.account{
+   width: 90%;
+   margin: auto;
+ 
+
+}
+.accinfo{
+    background-color: #fff;
+    
+}
+.goedit{
+    float: right;
+    
+}
+
+
+
+
+/* babies toys*/
+
+.bnt{
+    text-align: center;
+    
+   
+}
+
+.babytoys{
+    background-color:  #fff;
+    width: 96%;
+    margin: auto;
+    margin-top: 100px;
+
+   
+}
+
+.toys{
+    margin: auto;
+    text-align: center;
+    padding: 20px   ;
+}
+
+.toysimg{
+   
+    margin: auto;   
+    text-align: center;
+    width: 70%;
+    
+    
+    
+   
+}
+
+.cars{
+    
+    width: 250px ;
+    height: 250px;
+    object-fit: cover;
+    
+
+}
+.cribs{
+    
+    width: 250px ;
+    height: 250px;
+    object-fit: cover;
+
+
+}
+.block{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+
+
+/* Electronic Devices*/
+
+
+    
+    
+    
+
+.ED{
+    text-align: center;
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+.devices{
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: auto;
+    width: 90%
+    
+}
+.deviceimg{
+    margin-top: 5opx;
+}
+
+.hpimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.ltimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.phoneimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+
+
+/*fashion*/
+
+
+.fashionhead{
+    text-align: center;
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 100px;
+    
+
+}
+
+.fashionimg{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+   
+    padding-bottom: 20px;
+}
+
+.shirtimg{
+    display: inline-block;
+    padding: 20px;
+    width: 60%;
+}
+.bsimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.csimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.gsimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/* Groceries and Pets*/
+
+
+.groceries{
+    text-align: center;
+    text-align: center;
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+
+.GNP{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.GNPimg{
+    display: inline-block;
+    padding: 20px;
+}
+
+.vegetimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.fruitimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.strawimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+/* health and beauty */ 
+.health{
+    text-align: center;
+    text-align: center;
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+
+.HNB{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.HNBimg{
+    display: inline-block;
+    padding: 20px;
+}
+
+.bpimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.gpimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.opimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Home-Living*/
+
+.home{
+    text-align: center;
+    text-align: center;
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+
+.HNL{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.HNLimg{
+    display: inline-block;
+    padding: 20px;
+}
+
+.ipimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.wpimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.limg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+/* health and beauty */ 
+.health{
+    text-align: center;
+    
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+
+.HNB{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.HNBimg{
+    display: inline-block;
+    padding: 20px;
+}
+
+.bpimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.gpimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.opimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/*products*/ 
+
+/* babycars*/
+.babycars{
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+   
+    text-align: center;
+    background-color: #fff;
+    width: 95%;
+    margin: auto;
+    margin-top:  40px;
+    height: auto;
+}
+
+.BC{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.cars{
+    margin: auto;
+}   
+.corder{
+    margin-top: 100px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.bcimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/*banies cribs*/
+.babycrib{
+    text-align: center;
+    background-color: #fff;
+    width: 95%;
+    margin: auto;
+    margin-top:  40px;
+    height: auto;
+}
+
+.cribname{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.cprize{
+    margin: auto;
+}   
+.cinfo{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.crimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/*baby blocks*/
+.BB{
+    text-align: center;
+    background-color: #fff;
+    width: 95%;
+    margin: auto;
+    margin-top:  40px;
+    height: auto;
+}
+
+.BBhead{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.cprize{
+    margin: auto;
+}   
+.bbinfo{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.blockimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* electronics*/
+/*headphones*/
+.HP{
+    text-align: center;
+    background-color: #fff;
+    width: 95%;
+    margin: auto;
+    margin-top:  40px;
+    height: auto;
+}
+
+.HPhead{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.HPprize{
+    margin: auto;
+}   
+.HPinfo{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.HPimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+/* laptop*/
+.LT{
+    text-align: center;
+    background-color: #fff;
+    width: 95%;
+    margin: auto;
+    margin-top:  40px;
+    height: auto;
+}
+
+.LThead{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.LTrize{
+    margin: auto;
+}   
+.LTinfo{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
+
+.LTimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+
+/* footer */
+
+
+
+
+.footer{
+    margin-top: 180px;
+    height: 150px;
+    border: solid 1px #cacaca;
+    background-color: #fff;
+    justify-content: space-between;
+    
+}
+
+.minfo{
+   
+  
+    align-items: center;
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #252f7b;
+    height: 150px;
+    
+}
+
+.lazapee{
+    float: right;
+    margin-top: 70px;
+    margin-right: 20%   ;
+    
+   
+}
+.social{
+    float: left;
+    margin-left: 20%;
+    margin-top: 60px;
+}
+
+@media only screen and ( max-width: 390px )  {
+        .logo{
+            position: absolute;
+            top: 10px;
+            margin-left: 80px;
+            
+        }
+
+        .container{
+            position: absolute;
+            height: auto;
+            width: 100%;
+            background-color: #fff;
+            text-align: center;
+        }
+        
+        .navbar{
+            position: static;
+            margin-top: 80px;
+            height: auto;
+        }     
+        .midnav{
+
+            width: 100%;
+        
+         
+        }
+
+        .rnav{
+        width: 100%;
+          position: stat;
+          left: 10px; 
+          
+          
+        }
+        
+        .toysimg{
+            width: 100%;
+            padding: 0px;
+        }
+
+        .devices{
+            width: 100%;
+        }
+
+        .deviceimg{
+            width: 100%;
+            margin: auto;
+        }
+
+        .lazapee{
+            position: static;
+            margin-left: 30%;
+
+        }
+
+        .GNP{
+            width: 100%;
+        }
+
+        .GNPimg{
+            width: 100%;
+        }
+
+        .HNL{
+            width: 100%;
+        }
+
+        .HNLimg{
+            width: 100%;
+        }
+
+        .HNB{
+            width: 100%;
+        }
+
+        .HNBimg{
+            width: 100%;
+        }
+        .cars{
+            width: 100%;
+        }
+
+        .crimg{
+            width: 100%;
+        }
+        
+}
